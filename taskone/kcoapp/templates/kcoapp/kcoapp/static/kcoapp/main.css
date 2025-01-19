@@ -1,0 +1,318 @@
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    header .site-header .navbar .container .nav-link {
+        
+        background-color: #e61ad5 ;
+        color: #DAF7A6;
+        padding: 10px;
+        text-align: center;
+        font-family: Clarendon Blk BT, sans-serif;
+        font-size: 66;
+        
+        align-items:flex-end;
+    }
+
+    #image {
+        position: absolute; /* Position the logo absolutely */
+        top: 10px; /* Distance from the top */
+        left: 10px; /* Distance from the left */
+        width: 100px; /* Adjust width as needed */
+        height: 100px; /* Maintain aspect ratio */
+
+    }
+
+  
+.content-section {
+  background: #37c8e294;
+  padding: 10px 20px;
+  border: 1px solid #03c2f1;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.article-title {
+  color: hsla(202, 91%, 57%, 0.685);
+}
+
+a.article-title:hover {
+  color: #e603c0fb;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #f203fa
+}
+
+.article-metadata a:hover {
+  color: #e603c0fb;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+  
+h1, h2, h3, h4, h5, h6 {
+  color: #821ef5;
+}
+
+ul {
+  margin: 0;
+}
+
+.bg-steel {
+  background-color: hwb(182 3% 7% / 0.63) ;
+}
+    
+    
+    .site-header .navbar .nav-link a{
+        list-style: none;
+        background-color: #DAF7A6;
+        text-align: center;
+    }
+
+    site-header .navbar .container .nav-link a{
+        display: inline;
+        margin-right: 20px;
+    }
+
+    .site-header .navbar .nav-link:last-child {
+        margin-right: 0;
+    }
+
+    .side-header .navbar .nav-link a {
+        text-decoration: none;
+        color: #F007FB;
+    }
+    .site-header .navbar .nav-link{
+        padding: 10px 20px;
+        border: 2px solid #DAF7A6;
+        border-radius: 5px;
+        background-color: #08EDF9;
+
+    }
+
+    .site-header .navbar .nav-link a:hover {
+        background-color: #0287FC;
+        color: #fff;
+        text-decoration: underline;
+    }
+    .bg-steel {
+        background-color: hwb(182 3% 7% / 0.63) ;
+      }
+
+    aside a:hover{
+        background-color: #0287FC;
+        color: #fff;
+        text-decoration: underline;
+    }
+    main {
+        padding: 20px;
+    }
+
+        
+    
+    section {
+        float: left;
+        width: calc(50% - 220px);
+        padding: 20px;
+        background-color: #DAF7A6;
+        justify-content: center, space-between;
+        align-content: center;
+        border: darkred;
+        margin: 20px;
+
+    }
+    article {
+        float: left;
+        width: calc(40% - 220px);
+        padding: 20px;
+        text-underline-offset: none;
+        text-decoration: none;
+        background-color: white;
+        margin: 20px;
+        background-color: #f2f2f2;
+    }
+        
+    
+    aside {
+        float: right;
+        width: 400px;
+        background-color: #f2f2f2;
+        padding: 5px;
+        margin: 20px;
+        a{
+        text-decoration: none;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+
+
+        }
+    }
+    footer p{
+        clear: both;
+        background-color: #FC54EF;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        align-items: center;
+        align-content: center;
+    }
+        form {
+        width: 300px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="password"],
+    select {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box; /* To include padding and border in element's total width and height */
+    }
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    p{
+        text-align: justify;
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        background-color: lightblue;
+        align-items: center;
+        height: 100vh;
+    }
+
+
+    .contact-label {
+        align-items:  flex-start;
+        text-align: right;
+        background-color: lightblue;
+            margin-bottom: 20px;
+            color: #333;
+    }
+    .slideshow-container {
+
+        display: flex;
+        overflow: hidden;
+        width: 100%;
+        height: 400px; /* Adjust height as needed */
+        position: relative;
+
+    }
+
+    .slideshow-container .slideshow-left,
+    .slideshow-container .slideshow-center,
+    .slideshow-container .slideshow-right {
+
+        flex: 1;
+        overflow: hidden;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation: slide-right 10s infinite linear; /* Adjust animation duration as needed */
+}
+
+@keyframes slide-right {
+0% {
+
+    transform: translateX(100%);
+}
+100% {
+
+    transform: translateX(-100%);
+}
+
+}
+main {
+    padding: 20px;
+    background-color: #08EDF9 ;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+
+.contact-info {
+display: flex;
+justify-content: center;
+align-items: center;
+color:#F007FB;
+font-weight: bold;
+}
+
+.contact-info p {
+font-family: times new roman;
+margin: 0 10px;
+font-weight: bold;
+font-size: 16px;
+color:#F007FB ;
+}
+
+.contact-info i {
+margin-right: 5px;
+font-size: 16px;
+color:#F007FB ;
+
+}
+
+.header-visible {
+top: 0; /* Show the header when scrolled */
+}
+.content {
+height: 2000px; /* Add content to create scrolling */
+padding-top: 120px; /* Add padding to compensate for fixed header */
+}
+

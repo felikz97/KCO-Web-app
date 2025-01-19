@@ -1,0 +1,55 @@
+{%  extends "kcoapp/base.html" %}
+{% block content %}
+{% load static %}
+    
+        <div class="slideshow-container">
+            <!--  -->
+            <div class="slideshow-left">
+                
+                <img src="{% static 'kcoapp/images/image1.png' %}" class="slide">
+            </div>
+            <div class="slideshow-center">
+                <img src="{% static 'kcoapp/images/pic3.jpg' %}" class="slide">
+            </div>
+            <div class="slideshow-right">
+                <img src="{% static 'kcoapp/images/image1.png' %}" class="slide">
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+        </div>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to My Website</h1>
+        <p>Your success starts here. Join us and explore endless possibilities.</p>
+        <a href="#services">Get Started</a>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="service">
+            <h3>Service 1</h3>
+            <p>High-quality service that meets your needs.</p>
+        </div>
+        <div class="service">
+            <h3>Service 2</h3>
+            <p>Custom solutions for every challenge.</p>
+        </div>
+        <div class="service">
+            <h3>Service 3</h3>
+            <p>Expert support available 24/7.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2010 Kericho Beauty School. All rights reserved. <a href="#privacy">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
+    
+    
+   
+{% endblock %}

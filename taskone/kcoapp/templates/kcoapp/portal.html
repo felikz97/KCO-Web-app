@@ -1,0 +1,72 @@
+
+{% extends "kcoapp/base.html" %}
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portal</title>
+    <link rel="images" type="image/x-icon" href="{% static 'images/favicon.jpg' %}" alt="lods" >
+
+</head>
+<body>
+    
+    <div class="portal-section" >
+        <head class="portal-heading">
+            <img id="image" src="{% static 'kcoapp/images/image1.png' %}" alt="Logo">
+    
+    
+    
+        </head>
+        <div class="portalDiv">
+            <div class="media">
+            
+            <div class="profile-Div">
+                
+
+                           
+                <a class="profile-head"  href="#">PORTAL:  {{user.username}}</a></h1>
+
+                <div class="logout">
+                    <div class="profile">
+                        <img id="profileImage" src="default-avatar.png" alt="Profile Image">
+                        <h2 id="username">{{user.username}}</h2>
+                        <a href="{% url 'logout' %}" class="link-tooltip"> Logout > 
+                        <span class="tooltiptext">Click to sign out your account</span>
+                        </a>
+                    </div>
+                    
+
+                   
+                </div>
+
+                <h2 class="account-heading">Welcome to your portal {{user.username}}</h2>
+                <p class="text-secondary">Email : {{user.email}}</p>
+            </div>
+            </div>
+            <!-- 
+            <div class="logout"><a href="{% url 'logout' %}">Logout</a></div>
+            FORM HERE -->
+        </div>
+    </div>
+
+    <script>
+        // Simulate fetching user data from an API
+        const apiResponse = {
+            username:= {{user.username}}
+            profile_image: "https://example.com/path-to-profile-image.jpg" // Replace with actual API URL
+        };
+
+        // Update the HTML dynamically
+        document.getElementById("profileImage").src = apiResponse.profile_image;
+        document.getElementById("username").textContent = apiResponse.username;
+    </script>
+    
+</body>
+</html>
+
+    
+  
+{% endblock content %}  
